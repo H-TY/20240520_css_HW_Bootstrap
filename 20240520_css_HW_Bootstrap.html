@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: sans-serif;
+        }
+
+        .contain {
+            width: 100%;
+            height: 100vh;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .big {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top {
+            width: 100%;
+            height: 100px;
+            background: #222222;
+        }
+
+        .middle {
+            flex-direction: column;
+        }
+
+        .box {
+            width: 1600px;
+            margin: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            /* background: #f16b6b; */
+        }
+
+        .a {
+            font-size: 24px;
+            color: white;
+        }
+
+        .e {
+            width: 360px;
+            font-size: 18px;
+            color: white;
+        }
+
+        .pic {
+            width: 900px;
+            height: 400px;
+            background: #d8d8d8;
+            border-radius: 10px;
+        }
+
+        .text {
+            width: 600px;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .c {
+            height: 100px;
+            border-radius: 10px;
+            background: #626c72;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .card {
+            width: 400px;
+            height: 300px;
+            box-sizing: border-box;
+
+            border: 1px solid #b4b4b4;
+            border-radius: 10px;
+        }
+
+        .art {
+            padding: 20px;
+        }
+
+        .btn {
+            width: 100%;
+            height: 60px;
+            background: #cccccc;
+            line-height: 60px;
+        }
+
+        .footer {
+            width: 100%;
+            height: 200px;
+            background: #222222;
+            font-size: 26px;
+            color: white;
+        }
+
+        button {
+            width: 150px;
+            height: 44px;
+            border-radius: 10px;
+            border: none;
+            background: rgb(35, 112, 255);
+        }
+
+        a {
+            font-size: 16px;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contain">
+        <div class="top big">
+            <div class="box">
+                <div class="a">Start Bootstrap</div>
+                <div class="box e">
+                    <div>Home</div>
+                    <div>About</div>
+                    <div>Contact</div>
+                    <div>Services</div>
+                </div>
+            </div>
+        </div>
+        <div class="middle big">
+            <div class="box b">
+                <div class="pic"></div>
+                <div class="text">
+                    <h1>Business Name or Tagline</h1>
+                    <p class="p1">
+                        This is a template that is great for small businesses. It doesn't have too much fancy flare to it, but it makes a great use of the standard Bootstrap core components. Feel free to use this template for any project you want!
+                    </p>
+                    <button>
+                        <a href="https://startbootstrap.github.io/startbootstrap-small-business/#!">
+                            Call to Action！
+                        </a>
+                </div>
+            </div>
+        </div>
+        <div class="box c">
+            <p class="p2">
+                This call to action card is a great place to showcase some important information or display a clever tagline!
+            </p>
+        </div>
+        <div class="box d">
+            <div class="card">
+                <div class="art">
+                    <h1>Card One</h1>
+                    <p class="p3">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+                    </p>
+                </div>
+                <div class="btn">
+                    <button>
+                        <a href="https://startbootstrap.github.io/startbootstrap-small-business/#!">
+                            More Info
+                        </a>
+                    </button>
+                </div>
+            </div>
+            <div class="card">
+                <h1>Card Two</h1>
+                <p class="p3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.
+                </p>
+                <button>
+                    <a href="https://startbootstrap.github.io/startbootstrap-small-business/#!">
+                        More Info
+                    </a>
+                </button>
+            </div>
+            <div class="card">
+                <h1>Card Three</h1>
+                <p class="p3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.
+                </p>
+                <button>
+                    <a href="https://startbootstrap.github.io/startbootstrap-small-business/#!">
+                        More Info
+                    </a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="footer big">Copyright © Your Website 2023</div>
+    </div>
+</body>
+
+</html>
